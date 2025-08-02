@@ -8,7 +8,8 @@ dotenv.config()
 export default defineConfig({
   plugins: [react()],
   server:{
-    base: "/reactAccounting"
+    base: process.env.VITE_BASE_PATH || "/reactAccounting",
+    
     // host: '0.0.0.0',
     // port: Number(process.env.VITE_PORT)
   }
