@@ -5,7 +5,7 @@ const Footer = () =>{
 return (
 <>
 
-<footer id="footer" className="text-center text-lg-start text-white">
+<footer id="footer" className="text-center text-lg-start bg-secondary bg-gradient">
   
   <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
     
