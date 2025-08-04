@@ -14,7 +14,6 @@ const BannerLayout = () =>{
       <Navbar />
     </div>
      <Outlet />
-     <Footer />
     </>
  )
 }
